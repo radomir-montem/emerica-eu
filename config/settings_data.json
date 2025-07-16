@@ -15,7 +15,7 @@
     "type_body_font": "mono",
     "type_subheading_font": "mono",
     "type_heading_font": "mono",
-    "type_accent_font": "mono",
+    "type_accent_font": "sans-serif",
     "custom_heading_font": true,
     "type_line_height_paragraph": "body-normal",
     "type_font_h1": "heading",

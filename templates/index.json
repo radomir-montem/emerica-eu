@@ -440,7 +440,7 @@
           "settings": {
             "source": "url",
             "video_url": "https://www.youtube.com/watch?v=6HEzuoFnxxw",
-            "video_autoplay": true,
+            "video_autoplay": false,
             "video_loop": true,
             "cover_image": "shopify://shop_images/Em-SU25-Promo-YoutubeThumbnail.jpg",
             "alt": "Leo, Spanky, Figgy & Stu. Fire In Da Sky - An Emerica film by Matt King",

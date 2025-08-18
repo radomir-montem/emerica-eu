@@ -17,7 +17,7 @@
           "name": "Mute.",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/Highres-Em-SP25-Mute-Instagram-Post-26.jpg",
+            "image_1": "shopify://shop_images/Highres-Em-SP25-Mute-Instagram-Post-26_copie.webp",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -218,7 +218,7 @@
           "name": "Spanky Hi x Lottie",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/Em-WebsiteHomepageImage-SpankyHixLottie-1.jpg",
+            "image_1": "shopify://shop_images/Em-WebsiteHomepageImage-SpankyHixLottie-1_copie.webp",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",

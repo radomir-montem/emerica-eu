@@ -73,7 +73,7 @@
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
-                "content_direction": "row",
+                "content_direction": "column",
                 "vertical_on_mobile": false,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
@@ -112,7 +112,7 @@
                   "settings": {
                     "text": "<h2><strong>{{ closest.product.title }}</strong></h2>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -141,7 +141,7 @@
                     "show_number": true,
                     "rating_color": "primary",
                     "type_preset": "paragraph",
-                    "alignment": "right"
+                    "alignment": "left"
                   },
                   "blocks": {}
                 }
@@ -522,7 +522,10 @@
       "blocks": {
         "judge_me_reviews_review_widget_XLrQNc": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [

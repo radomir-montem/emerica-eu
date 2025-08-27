@@ -73,7 +73,7 @@
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
-                "content_direction": "column",
+                "content_direction": "row",
                 "vertical_on_mobile": false,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
@@ -132,24 +132,48 @@
                   },
                   "blocks": {}
                 },
-                "review_aiaXjH": {
-                  "type": "review",
-                  "name": "t:names.product_review_stars",
+                "price_JVhrxW": {
+                  "type": "price",
+                  "name": "t:names.product_price",
                   "settings": {
                     "product": "{{ closest.product }}",
-                    "stars_style": "shaded",
-                    "show_number": true,
-                    "rating_color": "primary",
-                    "type_preset": "paragraph",
-                    "alignment": "left"
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "type_preset": "h2",
+                    "width": "100%",
+                    "alignment": "right",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   },
                   "blocks": {}
                 }
               },
               "block_order": [
                 "text_rTPLMk",
-                "review_aiaXjH"
+                "price_JVhrxW"
               ]
+            },
+            "review_wae46L": {
+              "type": "review",
+              "name": "t:names.product_review_stars",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "stars_style": "shaded",
+                "show_number": true,
+                "rating_color": "primary",
+                "type_preset": "paragraph",
+                "alignment": "left"
+              },
+              "blocks": {}
             },
             "text_gaDt9t": {
               "type": "text",
@@ -255,30 +279,6 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "price_UN6aHJ": {
-                      "type": "price",
-                      "name": "t:names.product_price",
-                      "settings": {
-                        "product": "{{ closest.product }}",
-                        "show_sale_price_first": true,
-                        "show_installments": false,
-                        "show_tax_info": false,
-                        "type_preset": "h6",
-                        "width": "fit-content",
-                        "alignment": "left",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "color": "var(--color-foreground)",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
                     "alliance_pro_membership_price_Btt9DD": {
                       "type": "shopify://apps/alliance-pro/blocks/membership-price/da1619d2-ddc8-4b5b-b988-31a93f9fda3a",
                       "settings": {
@@ -291,7 +291,6 @@
                     }
                   },
                   "block_order": [
-                    "price_UN6aHJ",
                     "alliance_pro_membership_price_Btt9DD"
                   ]
                 }
@@ -497,6 +496,7 @@
           },
           "block_order": [
             "group_4kFUY6",
+            "review_wae46L",
             "text_gaDt9t",
             "group_8fkkWP",
             "variant_picker_3Nha6V",

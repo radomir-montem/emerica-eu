@@ -12,10 +12,11 @@
     "logo": "shopify://shop_images/Em-2025-TriangleLogo-Black.png",
     "logo_inverse": "shopify://shop_images/Em-2025-TriangleLogo-White.png",
     "favicon": "shopify://shop_images/Em-2025-TriangleLogo-Black.png",
-    "type_body_font": "mono",
-    "type_subheading_font": "mono",
-    "type_heading_font": "mono",
-    "type_accent_font": "mono",
+    "type_body_font": "arial_n7",
+    "type_subheading_font": "arial_n7",
+    "type_heading_font": "arial_n7",
+    "type_accent_font": "arial_n4",
+    "custom_heading_font": true,
     "type_line_height_paragraph": "body-normal",
     "type_font_h1": "heading",
     "type_size_h1": "40",
@@ -156,6 +157,11 @@
       },
       "14352282602675302068": {
         "type": "shopify://apps/xcloud-search-filter/blocks/cloudsearch_opt/8ddbd0bf-e311-492e-ab28-69d0ad268fac",
+        "disabled": false,
+        "settings": {}
+      },
+      "18380801738182334087": {
+        "type": "shopify://apps/addingwell/blocks/aw-gtm/c8ed21e7-0ac8-4249-8c91-cbdde850b5b8",
         "disabled": false,
         "settings": {}
       }
@@ -718,10 +724,11 @@
   "platform_customizations": {
     "custom_css": [
       "/* 1 – Force product cards to stay square (optional, only if you picked “Square” ratio) */.product-card__media,.card-gallery,.product-media-container {aspect-ratio: 1 / 1;}",
-      "/* 2 – Show the whole photo inside that square, no cropping */.product-card__media img,.card-gallery img,.product-media img {object-fit: contain !important;}",
+      " /* 2 – Show the whole photo inside that square, no cropping */.product-card__media img,.card-gallery img,.product-media img {object-fit: contain !important;}",
       ".product-media-modal__toggle,.product__media-icon {display: none !important;}",
       "variant-swatch-king li .star-set-image {background-color: transparent !important;}",
-      "variant-swatch-king #swatch-option1 {display: none;"
+      "variant-swatch-king #swatch-option1 {display: none;}",
+      "predictive-search-component .resource-card__image {object-fit: contain;}"
     ]
   }
 }

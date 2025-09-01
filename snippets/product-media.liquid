@@ -26,7 +26,7 @@
 >
   {% liquid
     assign high_res_url = media.preview_image | image_url: width: 3840
-     assign alt_text = media.alt | default: product.title
+     assign alt_text = media.alt | default: product.title | default: selected_product.title
   %}
   {{
     media.preview_image

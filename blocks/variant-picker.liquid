@@ -1,7 +1,7 @@
 
 
 {% liquid
-  assign product_resource = block.settings.product
+  assign product_resource = closest.product
   if request.visual_preview_mode and product_resource == blank
     assign product_resource = collections.all.products.first
   endif

@@ -427,6 +427,7 @@
             "video_url": "https://youtu.be/rhFbEmnPg3M?si=W-idZc0JmWi_yZPN",
             "video_autoplay": false,
             "video_loop": true,
+            "cover_image": "shopify://shop_images/Em-FW25-KSL3-Thumbnail-Desktop.jpg",
             "alt": "KSL III has arrived.",
             "custom_width": 100,
             "custom_width_mobile": 100,

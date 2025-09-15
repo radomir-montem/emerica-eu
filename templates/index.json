@@ -174,8 +174,23 @@
                   "type": "button",
                   "name": "Shop Button",
                   "settings": {
-                    "label": "Available Now",
+                    "label": "Shop Now",
                     "link": "shopify://collections/ksl-iii",
+                    "open_in_new_tab": false,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                },
+                "button_nwQWxX": {
+                  "type": "button",
+                  "name": "Shop Button",
+                  "settings": {
+                    "label": "KSL III Lookbook",
+                    "link": "shopify://pages/ksliii-lookbook",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -187,7 +202,8 @@
                 }
               },
               "block_order": [
-                "button_jRDFEp"
+                "button_jRDFEp",
+                "button_nwQWxX"
               ]
             }
           },

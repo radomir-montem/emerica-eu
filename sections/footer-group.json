@@ -539,7 +539,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Since 1996, Emerica has consistently played its role as part as the DNA of th global skateboarding community, supporting dedicated skateboarders an pushing the limits in skateboard footwear.</p><p>Our shoes are designed by skaters, for skaters, to meet the rigorou demands of the streets with a distinct aesthetic.</p><p><strong>This is Emerica.</strong> This is Skateboarding.</p>",
+                "text": "<p>Since 1996, Emerica has consistently played it's role as part of the DNA of the global skateboarding community, supporting dedicated skateboarders and pushing the limits in skateboard footwear.</p><p>Our shoes are designed by skaters, for skaters, to meet the rigorous demands of the streets with a distinct aesthetic.</p><p><strong>This is Emerica.</strong> This is Skateboarding.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",

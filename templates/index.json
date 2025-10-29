@@ -440,10 +440,10 @@
           "name": "t:names.video",
           "settings": {
             "source": "url",
-            "video_url": "https://youtu.be/rhFbEmnPg3M?si=W-idZc0JmWi_yZPN",
+            "video_url": "https://www.youtube.com/watch?v=5VQhRvqjXz0",
             "video_autoplay": false,
             "video_loop": true,
-            "cover_image": "shopify://shop_images/Em-FW25-KSL3-Thumbnail-Desktop.jpg",
+            "cover_image": "shopify://shop_images/KSL-III-FW25-6102000144-213-BROWN-TAN-SEIDLER__DSC2162-9x16-213-6102000144.webp",
             "alt": "KSL III has arrived.",
             "custom_width": 100,
             "custom_width_mobile": 100,

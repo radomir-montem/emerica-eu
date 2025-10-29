@@ -443,6 +443,7 @@
             "video_url": "https://www.youtube.com/watch?v=5VQhRvqjXz0",
             "video_autoplay": false,
             "video_loop": true,
+            "cover_image": "shopify://shop_images/thumbnail_lahigh_0-00-02-19.jpg",
             "alt": "KSL III has arrived.",
             "custom_width": 100,
             "custom_width_mobile": 100,

@@ -1781,7 +1781,7 @@
       },
       "name": "t:names.products_grid",
       "settings": {
-        "collection": "new-apparel-arrivals",
+        "collection": "apparel",
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "max_products": 4,

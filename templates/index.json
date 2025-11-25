@@ -17,7 +17,7 @@
           "name": "New Arrivals",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/KSL-III-LA-FW25-website-hero.webp",
+            "image_1": "shopify://shop_images/Em-Pre-Black-Friday-website-hero-mobile-2.webp",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -48,13 +48,13 @@
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-end",
-                "vertical_alignment_flex_direction_column": "flex-start",
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
                 "gap": 0,
-                "width": "fill",
-                "custom_width": 50,
-                "width_mobile": "fill",
-                "custom_width_mobile": 85,
+                "width": "custom",
+                "custom_width": 30,
+                "width_mobile": "custom",
+                "custom_width_mobile": 40,
                 "height": "custom",
                 "custom_height": 0,
                 "inherit_color_scheme": false,
@@ -79,7 +79,7 @@
                 "text_TmNL3b": {
                   "type": "text",
                   "settings": {
-                    "text": "<h1>KSL III</h1>",
+                    "text": "<h1>Black Friday Deals</h1>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -103,6 +103,7 @@
                 },
                 "text_k7PXGj": {
                   "type": "text",
+                  "disabled": true,
                   "settings": {
                     "text": "<h3>Kevin Long's new signature pro shoe.</h3>",
                     "width": "fit-content",
@@ -139,7 +140,7 @@
                 "open_in_new_tab": false,
                 "content_direction": "row",
                 "vertical_on_mobile": false,
-                "horizontal_alignment": "flex-end",
+                "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "center",
@@ -175,7 +176,7 @@
                   "name": "Shop Button",
                   "settings": {
                     "label": "Shop Now",
-                    "link": "shopify://collections/ksl-iii",
+                    "link": "shopify://collections/black-friday",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -188,6 +189,7 @@
                 "button_nwQWxX": {
                   "type": "button",
                   "name": "Shop Button",
+                  "disabled": true,
                   "settings": {
                     "label": "KSL III Lookbook",
                     "link": "shopify://pages/ksliii-lookbook",

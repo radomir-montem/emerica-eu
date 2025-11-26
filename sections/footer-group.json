@@ -128,7 +128,7 @@
                 "text_kFkE8m": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>On orders over 99€</p>",
+                    "text": "<p>On orders over 75€</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",

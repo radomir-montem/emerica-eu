@@ -176,7 +176,7 @@
                   "name": "Shop Button",
                   "settings": {
                     "label": "Shop Now",
-                    "link": "shopify://collections/black-friday",
+                    "link": "shopify://collections/cyber-monday",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -1303,7 +1303,7 @@
       },
       "name": "t:names.products_grid",
       "settings": {
-        "collection": "black-friday",
+        "collection": "cyber-monday",
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "max_products": 4,

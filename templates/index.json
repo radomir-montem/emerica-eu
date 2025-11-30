@@ -1090,7 +1090,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2><strong>Team Favorites Skate  Shoes.</strong></h2>",
+                "text": "<h2><strong>Cyber Monday Deals.</strong></h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1303,7 +1303,7 @@
       },
       "name": "t:names.products_grid",
       "settings": {
-        "collection": "footwear",
+        "collection": "black-friday",
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "max_products": 4,

@@ -17,7 +17,7 @@
           "name": "New Arrivals",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/Em-Black-Friday-website-hero.webp",
+            "image_1": "shopify://shop_images/Em-Pre-Black-Friday-website-hero.webp",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -79,7 +79,7 @@
                 "text_TmNL3b": {
                   "type": "text",
                   "settings": {
-                    "text": "<h1>Black Friday Starts Now</h1>",
+                    "text": "<h1>Cyber Monday Is Here</h1>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",

@@ -175,7 +175,7 @@
                   "name": "Shop Button",
                   "settings": {
                     "label": "Shop Now",
-                    "link": "shopify://collections/cyber-monday",
+                    "link": "shopify://collections/footwear",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",

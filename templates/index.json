@@ -1089,7 +1089,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2><strong>Cyber Week Deals.</strong></h2>",
+                "text": "<h2><strong>Trending.</strong></h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1302,7 +1302,7 @@
       },
       "name": "t:names.products_grid",
       "settings": {
-        "collection": "cyber-monday",
+        "collection": "best-seller",
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "max_products": 4,

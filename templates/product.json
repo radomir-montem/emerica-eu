@@ -415,7 +415,7 @@
                 "accordion_row_jrGMdp": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Shipping",
+                    "heading": "Extended Returns",
                     "open_by_default": false
                   },
                   "blocks": {
@@ -452,7 +452,7 @@
                 "accordion_row_er8VWU": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Manufacturing",
+                    "heading": "Customer Service and Warehouse Closures",
                     "open_by_default": false
                   },
                   "blocks": {

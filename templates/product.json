@@ -385,7 +385,7 @@
                     "text_inXgNY": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>The holidays are almost here! To get your gear delivered in time for gift-giving or your upcoming shred trip, all web orders must be placed by the following dates for delivery ahead of the holidays:USA and CAN Deadlines</p><ul><li>Ground:  December 12 before 11:00 am</li></ul>",
+                        "text": "<p> The holidays are almost here! To get your gear delivered in time for gift-giving or your upcoming shred trip, all web orders must be placed by the following dates for delivery ahead of the holidays:</p><p>EU and Switzerland Deadline</p><ul><li>All-Shipping:  December 18</li></ul><p>UK Deadline</p><ul><li>All-Shipping:  December 16</li></ul>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",

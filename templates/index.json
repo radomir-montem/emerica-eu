@@ -897,7 +897,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h2><strong>Pro Skate Shoes.</strong></h2>",
+                "text": "<h2><strong>Our Team.</strong></h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1089,7 +1089,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2><strong>Trending.</strong></h2>",
+                "text": "<h2><strong>Pro Skate Shoes.</strong></h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1302,7 +1302,7 @@
       },
       "name": "t:names.products_grid",
       "settings": {
-        "collection": "best-seller",
+        "collection": "pro-shoes",
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "max_products": 4,

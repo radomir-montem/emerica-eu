@@ -356,6 +356,143 @@
               },
               "block_order": []
             },
+            "accordion_NG7hxU": {
+              "type": "accordion",
+              "name": "t:names.accordion",
+              "settings": {
+                "icon": "caret",
+                "dividers": true,
+                "type_preset": "h6",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "accordion_row_DDRATG": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Holiday shipping deadlines",
+                    "open_by_default": true
+                  },
+                  "blocks": {
+                    "text_inXgNY": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>The holidays are almost here! To get your gear delivered in time for gift-giving or your upcoming shred trip, all web orders must be placed by the following dates for delivery ahead of the holidays:USA and CAN Deadlines</p><ul><li>Ground:  December 12 before 11:00 am</li></ul>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_inXgNY"
+                  ]
+                },
+                "accordion_row_jrGMdp": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Shipping",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "text_eNC37h": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Orders placed between November 26 and December 24 are eligible for returns for <strong>60 days from the date of purchase</strong>. Please read our full Return Policy for more information.You can return an item if:</p><ul><li>It was purchased directly from  our official website</li><li>The product is unused, unworn,  unwashed, and undamaged</li><li>It’s in the original packaging  with all tags still attached</li></ul>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_eNC37h"
+                  ]
+                },
+                "accordion_row_er8VWU": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Manufacturing",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "text_QH9CW3": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_QH9CW3"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_row_DDRATG",
+                "accordion_row_jrGMdp",
+                "accordion_row_er8VWU"
+              ]
+            },
             "accordion_iWQwkW": {
               "type": "accordion",
               "name": "t:names.accordion",
@@ -501,6 +638,7 @@
             "group_8fkkWP",
             "variant_picker_3Nha6V",
             "buy_buttons_NmYpFG",
+            "accordion_NG7hxU",
             "accordion_iWQwkW"
           ]
         }
@@ -524,7 +662,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
-            "max_width": 1200
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },

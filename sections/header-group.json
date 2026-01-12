@@ -31,6 +31,7 @@
       "block_order": [
         "announcement_7L4q9p"
       ],
+      "disabled": true,
       "name": "t:names.announcement_bar",
       "settings": {
         "speed": 5,
